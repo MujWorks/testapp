@@ -33,8 +33,8 @@ function printMessages() {
         echo "<table>";
         while($row = $res->fetch_assoc()) {
             echo "<tr>";
-                echo "<td>".$row["ID"]."</td><td>".$row["name"].
-                "</td><td>".$row["email"]."</td><td>".$row["phone"]."</td><td>".$row["message"]."</td>";
+                echo "<td>".$row["ID"]."</td><td>".$row["Name"].
+                "</td><td>".$row["Email"]."</td><td>".$row["Phone"]."</td><td>".$row["Message"]."</td>";
             echo "</tr>";
             #echo "<br>";
         }
